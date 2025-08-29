@@ -1,0 +1,58 @@
+@font-face{
+	font-family: "MeowScript";
+	src: url(fonts/MeowScript-Regular.ttf) format("truetype");
+}
+@font-face{
+	font-family: "SourGummy";
+	src: url(fonts/SourGummy-VariableFont_wdth,wght.ttf) format("truetype");
+}
+@font-face{
+	font-family: "SourGummy-Italic";
+	src: url(fonts/SourGummy-Italic-VariableFont_wdth,wght.ttf) format("truetype");
+}
+body{
+	padding:0px;
+	background: linear-gradient(90deg, #d6488d,pink,lightblue);
+}
+h1{
+	font-family: SourGummy;
+	font-size: 64px;
+	color:lightblue;
+	margin-left: 5%;
+}
+h1:hover{
+	color:cornflowerblue;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 420px;
+	height: 220px;
+	margin: 5px;
+	border-radius: 7px;
+	border: 2px solid grey;
+}
+img:hover{
+	width: 425px;
+	height: 225px;
+	margin:3px;
+	border:2px solid white;
+}
+#easteregg{	
+	width: 420px;
+	height: 220px;
+	margin:5px;
+	border-radius: 7px;
+	border 2px solid grey;
+	background-image: url('photos/8.jpg');
+	background-size:cover;
+	display:inline-block;
+}
+#easteregg:hover{
+	width: 425px;
+	height: 225px;
+	margin:3px;
+	background-image:url('photos/ee.gif');
+	background-size:cover;
+}

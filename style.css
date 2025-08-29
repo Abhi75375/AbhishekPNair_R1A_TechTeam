@@ -1,0 +1,46 @@
+@font-face{
+		font-family: "MeowScript";
+		src: url(fonts/MeowScript-Regular.ttf) format("truetype");
+}
+@font-face{
+		font-family: "SourGummy";
+		src: url(fonts/SourGummy-VariableFont_wdth,wght.ttf) format("truetype");
+}
+@font-face{
+		font-family: "SourGummy-Italic";
+		src: url(fonts/SourGummy-Italic-VariableFont_wdth,wght.ttf) format("truetype");
+}
+body{
+	background-image: url(photos/8.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+h1{
+	color: cornflowerblue;
+	font-size: 64px;
+	font-family:"SourGummy";
+	margin-left:5%;
+}
+h3{
+	color:pink;
+	font-family: "MeowScript";
+	font-size: 32px;
+	font-weight: 100;
+}
+a{
+	color: purple;
+	background-color: yellowgreen;
+	padding: 10px 15px;
+	border: 2px solid cornflowerblue;
+	border-radius: 30px;
+	font-family:SourGummy;
+	font-weight:100;
+	text-decoration:none;
+	font-size: 32px;
+	margin-left:43% ;
+}
+a:hover{
+	background:linear-gradient(90deg, #d6488d,pink,lightblue);
+	color: black;
+	border: 2px solid black;
+}
